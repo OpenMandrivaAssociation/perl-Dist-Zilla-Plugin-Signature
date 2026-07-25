@@ -1,15 +1,15 @@
 %define upstream_name    Dist-Zilla-Plugin-Signature
-%define upstream_version 1.100930
+%define upstream_version 1.252860
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Sign releases with Module::Signature
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Dist/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/mikkoi/dist-zilla-plugin-signature
+Source0:	https://cpan.metacpan.org/authors/id/M/MI/MIKKOI/Dist-Zilla-Plugin-Signature-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
